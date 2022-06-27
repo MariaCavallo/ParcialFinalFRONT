@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Be-Vietnam-Pro, sans-serif;
+    text-decoration: none;
+}
+
+button{
+    position: absolute;
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+    width: 134px;
+    height: 44px;
+    background-color: rgb(242, 95, 58);
+    color: white;
+    border: none;
+    box-shadow: 0px 4px 7px;
+    border-radius: 50px;
+    padding: 15px;
+
+} 
+
+a:hover{
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+button a{
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.logo-header{
+    display: flex;
+    position: absolute;
+    left: 10%;
+    top: 6%;
+}
+
+header nav ul{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgba(36, 46, 82, 1);
+    width: 40vw;
+    left: 30%;
+    bottom: 90%;
+}
+
+.boton-nav{
+    right: 11%;
+    bottom: 90%;
+}
+
+.cuadro-texto1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 25%;
+    left: 10%;
+    width: 440px;
+    height: 200px;
+
+}
+
+h1{
+    color: rgba(35, 40, 81, 1);
+    font-weight: 700;
+    font-size: 55px;
+    width: 439px;
+    height: 198px;
+}
+
+section div img{
+    position: absolute;
+    left: 53%;
+    top: 25%;
+}
+
+.cuadro-texto2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 85%;
+    right: 55%;
+    width: 440px;
+    height: 200px;
+}
+
+h2{
+    color: rgba(35, 40, 81, 1);
+    font-weight: 700;
+    font-size: 36px;
+    width: 430px;
+    height: 90px;
+}
+
+article ol{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 553px;
+    height: 158px;
+    top: 95%;
+    left: 50%;
+}
+
+article ol li span{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3603B;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 70px;
+    height: 43px;
+    right: 95%;
+    padding: 10px 25px;
+}
+
+
+.contenedor-avatares{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-evenly;
+    top: 100vw;
+}
+
+.pre-footer{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    background-color: rgb(242, 95, 58);
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    width: 100%;
+    height: 10vh;
+    top: 170%;
+    left: 0%;
+}
+
+#boton-blanco{
+    background-color: white;
+    right: 10vw;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.a-bot-blanco{
+    color: #f25f3a;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    background-color: #1E1E26;
+    color: white;
+    top: 180%;
+    width: 100%;
+    left: 0%;
+}
+
+footer a{
+    color: white;
+}
+
+.barra-busqueda{
+    position: absolute;
+    display: flex;
+    width: 273px;
+    height: 49px;
+    right: 10%;
+    top: 32px;
+}
+
+.barra-busqueda input[type="search"]{
+    width: 201px;
+    height: 44px;
+    border-radius: 50px;
+    top: 32px;
+}
+
+.boton-busqueda{
+    position: absolute;
+    display: flex;
+    left: 210px;
+}
+
+
+
+
+
+
+
+ /* src="/Examen Practico Final - FE1/imagenes/icon-hamburger.svg" alt="menu" en celular nada mas */ 
