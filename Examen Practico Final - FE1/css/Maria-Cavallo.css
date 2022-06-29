@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+body{
+    font-size: 16px;
+}
+
 button{
     position: absolute;
     display: flex;
@@ -20,7 +24,7 @@ button{
     padding: 15px;
 } 
 
-a:hover{
+header, main, a:hover{
     color: rgb(150, 150, 150);
     text-decoration: none;
 }
@@ -171,19 +175,19 @@ h4{
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
-    top: 105vw;
-    left: 5vh;
+    top: 108vw;
+    right: 0vh;
 }
 
 .texto-avatares{
     position: absolute;
-    top: -11rem;
+    bottom: 14rem;
     color:#242E53;
     width: 430px;
     height: 61px;
     font-weight: 700;
     font-size: 40px;
-    left: 27rem;
+    left: 31rem;
 }
 
 section article img{
@@ -217,6 +221,11 @@ h5{
     color: #B9B9C1;
 }
 
+.Anisha, .Ali, .Richi{
+    background-color: rgb(249, 249, 249);
+    margin-left: 28px;
+}
+
 .anisha{
     position: relative;
     top: 0rem;
@@ -232,6 +241,10 @@ h5{
     position: relative;
     top: 0rem;
     right: 1rem;
+}
+
+input[type="radio"]{
+    display: none;
 }
 
 .boton-section{
@@ -276,6 +289,10 @@ footer{
 footer a{
     color: white;
     padding: 5px;
+}
+
+footer a:hover{
+    color: rgb(242, 95, 58);
 }
 
 .barra-busqueda{
@@ -357,22 +374,22 @@ footer p{
         display: none;
     }
 
-    .logo-header{
+    header nav div .logo-header{
         position: relative;
-        left: 5%;
-        bottom: 91%;
+        left: -16vh;
+        top: 1vh;
     }
 
-    header nav div{ 
+    header nav{ 
         position: relative;
         background-image: url(/imagenes/icon-hamburger.svg);
         background-repeat: no-repeat;                           /* ARREGLAR */
-        background-position: left;
-        top: 10%;
-        right: 10%;
+        background-position: right;
+        left: 20vh;
+        top: 6vh;
     }
 
-    section div img{
+    main section img{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -381,23 +398,23 @@ footer p{
 
     h1{
         position: absolute;
-        top: 25rem;
-        left: 2rem;
+        top: 27rem;
+        left: 4rem;
     }
 
     .texto-1{
-        top: 41rem;
-        left: 3rem;
+        top: 43rem;
+        left: 5rem;
         text-align: justify;
     }
 
     .boton-main{
-        top: 47rem;
-        left: 10rem;
+        top: 49rem;
+        left: 12rem;
     }
 
     .cuadro-texto2{
-        top: 126%;
+        top: 133%;
         left: 24%;
     }
 
@@ -409,21 +426,21 @@ footer p{
     }
 
     article ol{
-        left: 9vh;
-        top: 160vh;
+        left: 7vh;
+        top: 163vh;
         text-align: start;
         height: 19%;
         width: 120vw;
     }
 
     article ol li span{
-        right: 18vw;
+        right: 20vw;
         top: 3vw; 
     }
 
     h4{
         position: absolute;
-        background-color: rgba(231, 186, 175, 0.658);
+        background-color: rgb(255, 239, 234);
         width: 116%;
         border-radius: 10px;
         height: 21%;
@@ -434,7 +451,8 @@ footer p{
     }
 
     .contenedor-avatares{
-        top: 114rem;
+        top: 116rem;
+        left: 5rem;
     }
 
     .anisha, .richard{
@@ -449,9 +467,13 @@ footer p{
         display: none;
     }
 
+    .cara-ali{
+        left: 10rem;
+    }
+
     .AliBravo{
         top: 13%;
-        left: 28%;
+        left: 23%;
     }
 
     .ali{
@@ -459,19 +481,90 @@ footer p{
     }
 
     .boton-section{
-        top: 40rem;
-        left: 13rem;
+        top: 15rem;
+        left: 8rem;
     }
 
+    input:checked{
+        background-color: rgb(242, 95, 58);
+    }
+
+
+    input[type="radio"]{
+        display: flex;
+        position: relative;
+        appearance: none;
+        border: 0.05vh solid rgb(242, 95, 58);
+        color: #ffffff;
+        border-radius: 50%;
+        height: 0.9vh;
+        width: 0.9vh;
+        top: 8em;
+        right: 18em;
+    }
 
     .pre-footer{
-        top: 309vh;
+        top: 266vh;
         width: 72vh;
+        height: 46vh;
+        padding-left: 5vh;
+        text-align: center;
     }
 
+    #boton-blanco{
+        position: relative;
+        top: 32%;
+        right: 47%;
+    }
 
     footer{
-        top: 319vh;
+        top: 312vh;
         width: 72vh;
+        height: 72vh;
+    }
+
+    .barra-busqueda{
+        top: 4rem;
+        left: 9rem;
+    }
+    
+    .boton-busqueda{
+        height: 3em;
+        top: 0.25em;
+        width: 4em;
+    }
+    
+    .logo-footer{
+        top: 28rem;
+        width: 16rem;
+        height: 5rem;
+        left: 9rem;
+    }
+    
+    .primera-lista-foot{
+        position: absolute;
+        bottom: 21em;
+        left: 3em;
+    }
+    
+    .segunda-lista-foot{
+        bottom: 27vw;
+        left: 71vw;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .redes{
+        position: absolute;
+        height: 17vw;
+        width: 34vw;
+        left: 57vw;
+        top: 94vw;
+    }
+
+    footer p{
+        top: 64vh;
+        left: 23vh;
     }
 }
